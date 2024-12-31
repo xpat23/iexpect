@@ -1,0 +1,37 @@
+parameters:
+  default.host: http://164.92.239.228
+  default.port: 8080
+  other.host: https://fakestoreapi.com
+  other.port: 443
+
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  default.request.factory:
+    class: Xpat\ApiTest\Request\DefaultRequestFactory
+    arguments: [ '%default.host%', '%default.port%' ]
+    autowire: true
+
+  ApiTest\TestCase\:
+    resource: '../tests/TestCase/*'
+    autowire: true
+    autoconfigure: true
+    arguments: [ '@default.request.factory' ]
+
+
+
+
+    #  other request factory
+  another.request.factory:
+    class: Xpat\ApiTest\Request\DefaultRequestFactory
+    arguments: [ '%other.host%', '%other.port%' ]
+    autowire: true
+
+  ApiTest\TestCase\SubDir\OtherTest:
+    class: ApiTest\TestCase\SubDir\OtherTest
+    arguments: [ '@another.request.factory' ]
+    autowire: true
+    autoconfigure: true
+

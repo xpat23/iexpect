@@ -1,0 +1,26 @@
+{
+  "name": "xpat/iexpect",
+  "description": "REST API endpoints testing framework.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alymbek Kydyrmyshev",
+      "email": "x.pat.kg@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.3",
+    "ext-curl": "*",
+    "xpat/xpat-http": "v1.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ApiTest\\": "src/"
+    }
+  },
+  "require-dev": {
+  },
+  "scripts": {
+  }
+}

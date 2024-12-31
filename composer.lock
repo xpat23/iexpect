@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "285856bef07804c31aee3883dbcc2c40",
+    "packages": [
+        {
+            "name": "xpat/xpat-http",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xpat23/xpat-http.git",
+                "reference": "d34a2593716a59c2ac728e5c5350233a981f80b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xpat23/xpat-http/zipball/d34a2593716a59c2ac728e5c5350233a981f80b1",
+                "reference": "d34a2593716a59c2ac728e5c5350233a981f80b1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=8.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Xpat\\Http\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alymbek Kydyrmyshev",
+                    "email": "x.pat.kg@gmail.com"
+                }
+            ],
+            "description": "Http requests library.",
+            "support": {
+                "issues": "https://github.com/xpat23/xpat-http/issues",
+                "source": "https://github.com/xpat23/xpat-http/tree/v1.0.1"
+            },
+            "time": "2024-12-14T03:34:29+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.3",
+        "ext-curl": "*"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
