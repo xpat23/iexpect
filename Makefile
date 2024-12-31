@@ -13,8 +13,15 @@ ssh:
 install:
 	docker-compose run --rm --no-deps php composer install
 
+composer-dump:
+	docker-compose run --rm --no-deps php composer dump-autoload
+
 ps:
 	docker-compose ps
 
 env:
 	cp .env.dist .env
+
+
+test:
+	docker-compose run --rm --no-deps php php iexpect tests/

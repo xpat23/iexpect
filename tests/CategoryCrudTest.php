@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace src;
+namespace ApiTest;
 
 use Xpat\ApiTest\Attribute\Test;
 use Xpat\ApiTest\Expectation\FieldEqualityExpectation;

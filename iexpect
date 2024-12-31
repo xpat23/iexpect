@@ -15,12 +15,12 @@ use Xpat\ApiTest\Test\ApiTestMethods;
 use Xpat\ApiTest\Test\TestCase;
 use Xpat\ApiTest\Test\TestingResults;
 
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 $directory = __DIR__;
 
 $container = new ContainerBuilder();
-$loader = new YamlFileLoader($container, new FileLocator(__DIR__ . '/../config'));
+$loader = new YamlFileLoader($container, new FileLocator(__DIR__ . '/config'));
 $loader->load('services.yaml');
 
 $path = $argv[1] ?? $directory;

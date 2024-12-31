@@ -2,9 +2,10 @@
 
 declare(strict_types=1);
 
-namespace src;
+namespace ApiTest;
 
 use Xpat\ApiTest\Attribute\Test;
+use Xpat\ApiTest\Expectation\ElementsCountExpectation;
 use Xpat\ApiTest\Expectation\FieldEqualityExpectation;
 use Xpat\ApiTest\Expectation\StatusCodeExpectation;
 use Xpat\ApiTest\Test\ApiTest;
@@ -24,6 +25,7 @@ readonly class CategoriesTest extends TestCase
                     '0.name',
                     'Education'
                 ),
+                new ElementsCountExpectation('', 1),
             ]
         );
     }

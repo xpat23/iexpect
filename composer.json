@@ -12,14 +12,17 @@
   "require": {
     "php": ">=8.3",
     "ext-curl": "*",
-    "xpat/xpat-http": "v1.0.1"
+    "xpat/xpat-http": "v1.0.1",
+    "symfony/dependency-injection": "^7.2",
+    "symfony/config": "^7.2",
+    "symfony/yaml": "^7.2",
+    "xpat/api-test-library": "v1.0.1"
   },
   "autoload": {
     "psr-4": {
-      "ApiTest\\": "src/"
+      "ApiTest\\": "tests/",
+      "App\\": "src/"
     }
-  },
-  "require-dev": {
   },
   "scripts": {
   }
