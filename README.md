@@ -1,5 +1,6 @@
 # IExpect - REST API Testing Framework.
 
+
 ## Installation
 
 ### 1. Create .env file using the provided template.
@@ -19,6 +20,8 @@ make build
 ```bash
 make install
 ```
+
+
 
 ## Basic usage
 
@@ -97,6 +100,10 @@ make ssh
 ```bash
 php iexpect tests/CategoriesTest.php
 ```
+
+
+
+
 
 ## Execute sequential queries
 
@@ -212,6 +219,11 @@ readonly class CategoryCrudTest extends TestCase
 ```bash
 php iexpect tests/CategoryCrudTest.php
 ```
+
+
+
+
+
 
 ## Useful commands
 
