@@ -17,6 +17,75 @@ readonly class CategoriesTest extends TestCase
     #[Test]
     public function expenseCategories(): ApiTestInterface
     {
+        sleep(3);
+        return new ApiTest(
+            $this->requestFactory->get('/expense-categories'),
+            [
+                new StatusCodeExpectation(200),
+                new FieldEqualityExpectation(
+                    '0.name',
+                    'Education'
+                ),
+                new ElementsCountExpectation('', 1),
+            ]
+        );
+    }
+
+    #[Test]
+    public function expenseCategories1(): ApiTestInterface
+    {
+        sleep(3);
+        return new ApiTest(
+            $this->requestFactory->get('/expense-categories'),
+            [
+                new StatusCodeExpectation(200),
+                new FieldEqualityExpectation(
+                    '0.name',
+                    'Education'
+                ),
+                new ElementsCountExpectation('', 1),
+            ]
+        );
+    }
+
+    #[Test]
+    public function expenseCategories3(): ApiTestInterface
+    {
+        sleep(3);
+        return new ApiTest(
+            $this->requestFactory->get('/expense-categories'),
+            [
+                new StatusCodeExpectation(200),
+                new FieldEqualityExpectation(
+                    '0.name',
+                    'Education'
+                ),
+                new ElementsCountExpectation('', 1),
+            ]
+        );
+    }
+
+    #[Test]
+    public function expenseCategories5(): ApiTestInterface
+    {
+        sleep(3);
+        return new ApiTest(
+            $this->requestFactory->get('/expense-categories'),
+            [
+                new StatusCodeExpectation(200),
+                new FieldEqualityExpectation(
+                    '0.name',
+                    'Education'
+                ),
+                new ElementsCountExpectation('', 1),
+            ]
+        );
+    }
+
+    #[Test]
+    public function expenseCategories6(): ApiTestInterface
+    {
+        sleep(3);
         return new ApiTest(
             $this->requestFactory->get('/expense-categories'),
             [

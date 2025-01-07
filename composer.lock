@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "592814d49de7d91918cfd26745016983",
+    "content-hash": "1c8022275ab576d4eee78e378f56d918",
     "packages": [
         {
             "name": "psr/container",
@@ -739,16 +739,16 @@
         },
         {
             "name": "xpat/api-test-library",
-            "version": "v1.0.1",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/xpat23/api-test-library.git",
-                "reference": "55839288f9b7d4061991cbcb6db515a28dd6b665"
+                "reference": "f04126dea3265d875662bbd89e2e9e55b5c3a8cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xpat23/api-test-library/zipball/55839288f9b7d4061991cbcb6db515a28dd6b665",
-                "reference": "55839288f9b7d4061991cbcb6db515a28dd6b665",
+                "url": "https://api.github.com/repos/xpat23/api-test-library/zipball/f04126dea3265d875662bbd89e2e9e55b5c3a8cc",
+                "reference": "f04126dea3265d875662bbd89e2e9e55b5c3a8cc",
                 "shasum": ""
             },
             "require": {
@@ -780,9 +780,9 @@
             "description": "PHP library for testing json api endpoints.",
             "support": {
                 "issues": "https://github.com/xpat23/api-test-library/issues",
-                "source": "https://github.com/xpat23/api-test-library/tree/v1.0.1"
+                "source": "https://github.com/xpat23/api-test-library/tree/v1.0.5"
             },
-            "time": "2024-12-31T09:25:53+00:00"
+            "time": "2025-01-07T15:36:53+00:00"
         },
         {
             "name": "xpat/xpat-http",

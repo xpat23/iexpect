@@ -98,7 +98,7 @@ make ssh
 ```
 
 ```bash
-php iexpect tests/CategoriesTest.php
+ ./iexpect tests/CategoriesTest.php
 ```
 
 
@@ -217,7 +217,7 @@ readonly class CategoryCrudTest extends TestCase
 ### 2. Run the tests
 
 ```bash
-php iexpect tests/CategoryCrudTest.php
+php iexpect.php tests/CategoryCrudTest.php
 ```
 
 

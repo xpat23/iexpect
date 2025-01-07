@@ -16,7 +16,7 @@
     "symfony/dependency-injection": "^7.2",
     "symfony/config": "^7.2",
     "symfony/yaml": "^7.2",
-    "xpat/api-test-library": "v1.0.1"
+    "xpat/api-test-library": "v1.0.5"
   },
   "autoload": {
     "psr-4": {
