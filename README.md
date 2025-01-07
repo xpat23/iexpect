@@ -1,5 +1,11 @@
 # IExpect - REST API Testing Framework.
 
+This is a REST API testing framework that allows you to write tests in PHP.
+It provides a simple and flexible way to test your API endpoints, ensuring that they behave as expected.
+The framework supports various types of expectations, including status codes, field equality, and content validation.
+It supports grouping tests and executing them sequentially, making it easier to manage complex test scenarios.
+
+**Attention: Each test method (method that was marked with `#[Test]` attribute) runs asynchronously, if you want to execute them sequentially, you can use the `ApiTestGroup` class.**
 
 ## Installation
 
@@ -270,3 +276,25 @@ class MyExpectation implements ExpectationInterface
     }
 }
 ```
+
+## License
+
+The MIT License (MIT)
+
+Copyright (c) 2024 Alymbek Kydyrmyshev
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
