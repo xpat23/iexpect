@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c8022275ab576d4eee78e378f56d918",
+    "content-hash": "eaf1be946b60eeb2b312ece93a0b2c19",
     "packages": [
         {
             "name": "psr/container",
@@ -739,23 +739,23 @@
         },
         {
             "name": "xpat/api-test-library",
-            "version": "v1.0.5",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/xpat23/api-test-library.git",
-                "reference": "f04126dea3265d875662bbd89e2e9e55b5c3a8cc"
+                "reference": "ed1ba958676b72930255ac173822094fbd8634c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xpat23/api-test-library/zipball/f04126dea3265d875662bbd89e2e9e55b5c3a8cc",
-                "reference": "f04126dea3265d875662bbd89e2e9e55b5c3a8cc",
+                "url": "https://api.github.com/repos/xpat23/api-test-library/zipball/ed1ba958676b72930255ac173822094fbd8634c5",
+                "reference": "ed1ba958676b72930255ac173822094fbd8634c5",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
                 "php": ">=8.3",
                 "psr/container": "^2.0",
-                "xpat/xpat-http": "v1.0.1"
+                "xpat/xpat-http": "v1.0.2"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.0"
@@ -780,22 +780,22 @@
             "description": "PHP library for testing json api endpoints.",
             "support": {
                 "issues": "https://github.com/xpat23/api-test-library/issues",
-                "source": "https://github.com/xpat23/api-test-library/tree/v1.0.5"
+                "source": "https://github.com/xpat23/api-test-library/tree/v1.0.6"
             },
-            "time": "2025-01-07T15:36:53+00:00"
+            "time": "2025-01-10T11:13:26+00:00"
         },
         {
             "name": "xpat/xpat-http",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/xpat23/xpat-http.git",
-                "reference": "d34a2593716a59c2ac728e5c5350233a981f80b1"
+                "reference": "913caaf1649da10b78f2e78d43a13a9879bfc0e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xpat23/xpat-http/zipball/d34a2593716a59c2ac728e5c5350233a981f80b1",
-                "reference": "d34a2593716a59c2ac728e5c5350233a981f80b1",
+                "url": "https://api.github.com/repos/xpat23/xpat-http/zipball/913caaf1649da10b78f2e78d43a13a9879bfc0e4",
+                "reference": "913caaf1649da10b78f2e78d43a13a9879bfc0e4",
                 "shasum": ""
             },
             "require": {
@@ -824,9 +824,9 @@
             "description": "Http requests library.",
             "support": {
                 "issues": "https://github.com/xpat23/xpat-http/issues",
-                "source": "https://github.com/xpat23/xpat-http/tree/v1.0.1"
+                "source": "https://github.com/xpat23/xpat-http/tree/v1.0.2"
             },
-            "time": "2024-12-14T03:34:29+00:00"
+            "time": "2025-01-10T11:09:25+00:00"
         }
     ],
     "packages-dev": [],
