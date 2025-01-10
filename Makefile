@@ -24,4 +24,4 @@ env:
 
 
 test:
-	docker-compose run --rm --no-deps php  ./iexpect tests/
+	docker-compose run --rm --no-deps php  php iexpect tests/
