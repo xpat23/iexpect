@@ -107,6 +107,12 @@ make ssh
  php iexpect tests/CategoriesTest.php
 ```
 
+- Run with Go runner(experimental)
+
+```bash
+./iexpectg tests/CategoriesTest.php
+```
+
 
 
 
